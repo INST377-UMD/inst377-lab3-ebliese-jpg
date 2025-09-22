@@ -1,0 +1,48 @@
+.page-topbottom {text-align: center;
+background-color: rosybrown;
+margin: 25px;
+padding: 5%;
+clear:both;
+}
+
+#main-nav {
+    text-align: left;
+    background-color: fuchsia;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.main-container {
+    background-color: crimson;
+    border:  2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    float:left
+}
+
+
+#side-bar {
+    background-color: darkred;
+    width: 25%;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+}
+
+#side-bar:hover {
+    background-color: firebrick;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
